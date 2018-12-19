@@ -1,7 +1,7 @@
 {
-  "name": "react-stripe-connect-form",
-  "version": "0.0.1",
-  "description": "A React component to render a form that collects Stripe Connect information.",
+  "name": "tacos-components",
+  "version": "0.0.2",
+  "description": "",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build --ignore '**/*.test.js'",
@@ -13,14 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithweaver/react-stripe-connect-form.git"
+    "url": ""
   },
-  "author": "Keith Weaver <me@keithweaver.ca> (https://github.com/keithweaver)",
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/keithweaver/react-stripe-connect-form/issues"
-  },
-  "homepage": "https://github.com/keithweaver/react-stripe-connect-form#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -42,12 +38,9 @@
   },
   "dependencies": {
     "babel-preset-react": "^6.24.1",
-    "lodash": "^4.17.5",
-    "object-assign": "^4.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "weav": "^1.0.2"
+    "react-dom": "^16.2.0"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./config/setupTests.js"
